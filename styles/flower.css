@@ -38,6 +38,11 @@ header {
   width: 133px;
   background-color: #e55473;
   color: #ffffff;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+.btn-primary:hover {
+  background-color: #6dad60;
 }
 .header-image img {
   width: 100%;
