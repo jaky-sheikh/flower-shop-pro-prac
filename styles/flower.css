@@ -7,6 +7,8 @@
 body {
   font-family: "Lato", sans-serif;
 }
+/* Shared styles */
+
 /* Header styles */
 header {
   width: 75%;
@@ -46,5 +48,56 @@ header {
 }
 .header-image img {
   width: 100%;
-  /* vertical-align: middle; */
+  vertical-align: middle;
+}
+/* Main styles */
+/* 1st section styles */
+.sec-one {
+  /* max-width: 500px; */
+  text-align: center;
+  margin: 50px auto;
+}
+/* .sec-heading h2,
+.sec-heading p {
+  text-align: center;
+} */
+.sec-heading h2 {
+  font-size: 25px;
+  font-weight: 800;
+}
+.sec-heading p {
+  font-size: 15px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: end;
+  margin-top: 24px;
+}
+.flower-img {
+  background-color: #eb9cad;
+  border-radius: 300px 300px 0 0;
+  padding: 30px 25px 0;
+  height: 500px;
+  display: flex;
+  align-items: end;
+}
+.flower-img img {
+  width: 300px;
+}
+.pink {
+  background-color: #ffdec7;
+}
+.red {
+  background-color: #bee49d;
+}
+.yellow {
+  background-color: #7cab4d;
+}
+.flower p {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: underline;
 }
