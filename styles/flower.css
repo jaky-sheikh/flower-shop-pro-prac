@@ -101,3 +101,18 @@ header {
   font-weight: 800;
   text-decoration: underline;
 }
+/* 2nd section styles */
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 75%; */
+  margin: 0 auto;
+  padding: 30px 0;
+  height: 200px;
+}
+.icons {
+  background-color: #ececec;
+  width: 75%;
+  border-radius: 5px;
+}
