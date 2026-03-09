@@ -139,3 +139,27 @@ header {
 .hot-deal-img img {
   width: 100%;
 }
+/* Newsletter style */
+#newsletter {
+  width: 75%;
+  margin: 50px auto;
+}
+.back-img {
+  background-image: url("../images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  padding: 122px 0;
+}
+.newsletter-content {
+  text-align: center;
+}
+.section-container form {
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+}
+input {
+  flex-grow: 1;
+  border-radius: 5px;
+  border: none;
+}
