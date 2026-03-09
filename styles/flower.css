@@ -116,3 +116,26 @@ header {
   width: 75%;
   border-radius: 5px;
 }
+/* Hot deal style */
+.hot-deal-main {
+  background-color: #ffdec7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.red-color {
+  color: red;
+}
+.hot-deal-content {
+  width: 75%;
+  max-width: 550px;
+}
+.hot-deal-main .hot-deal-content * {
+  margin-bottom: 20px;
+}
+.hot-deal-img img {
+  width: 100%;
+}
